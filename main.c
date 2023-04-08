@@ -71,7 +71,7 @@ int SDL_main(int argc, char *argv[])
   lv_group_set_default(lv_group_create());
 
   /*Initialize the HAL (display, input devices, tick) for LVGL*/
-  hal_init(800, 480);
+  hal_init(240, 200);
 
 //  lv_example_switch_1();
 //  lv_example_calendar_1();
@@ -90,8 +90,8 @@ int SDL_main(int argc, char *argv[])
 //  lv_example_tabview_1();
 //  lv_example_flex_3();
 //  lv_example_label_1();
-    lv_example_spinbox_1();
-//  lv_demo_widgets();
+    // lv_example_spinbox_1();
+ lv_demo_widgets();
 
   while(1) {
       /* Periodically call the lv_task handler.
