@@ -1,0 +1,1 @@
+-IF:/code/lvgl/lvgl_cmake_pro -I"F:/code/lvgl/lvgl_cmake_pro/SDL2/x86_64-w64-mingw32/include" -isystem "F:/code/lvgl/lvgl_cmake_pro/SDL2/x86_64-w64-mingw32/include/SDL2" -isystem F:/code/lvgl/lvgl_cmake_pro/lvgl -isystem F:/code/lvgl/lvgl_cmake_pro/lvgl/examples -isystem F:/code/lvgl/lvgl_cmake_pro/lvgl/demos

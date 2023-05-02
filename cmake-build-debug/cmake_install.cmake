@@ -1,4 +1,4 @@
-# Install script for directory: D:/code/c/lvgl_cmake_pro
+# Install script for directory: F:/code/lvgl/lvgl_cmake_pro
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/clion/CLion 2022.1.2/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "G:/mingw64kit/w64devkit/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/code/c/lvgl_cmake_pro/cmake-build-debug/lvgl/cmake_install.cmake")
+  include("F:/code/lvgl/lvgl_cmake_pro/cmake-build-debug/lvgl/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/code/c/lvgl_cmake_pro/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/code/lvgl/lvgl_cmake_pro/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
