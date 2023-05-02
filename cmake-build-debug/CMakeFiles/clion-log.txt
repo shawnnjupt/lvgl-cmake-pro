@@ -1,5 +1,5 @@
 G:\cmake\cmake-3.26\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" F:\code\lvgl\lvgl_cmake_pro
 -- F:/code/lvgl/lvgl_cmake_pro
--- Configuring done (0.4s)
--- Generating done (0.6s)
+-- Configuring done (0.3s)
+-- Generating done (0.2s)
 -- Build files have been written to: F:/code/lvgl/lvgl_cmake_pro/cmake-build-debug
